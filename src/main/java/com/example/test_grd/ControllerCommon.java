@@ -11,4 +11,10 @@ public class ControllerCommon {
         int random = (int) (Math.random() * 100);
         return "Number : " + random;
     }
+
+    @GetMapping("org-b/gen-string")
+    public String hiGetString() {
+        int random = (int) (Math.random() * 100);
+        return "Number as string : " + random;
+    }
 }
