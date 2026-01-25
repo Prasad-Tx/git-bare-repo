@@ -1,0 +1,20 @@
+*   [33me4765fd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mbase-orgB-feature[m[33m)[m Merge remote-tracking branch '__org/master-base' into base-orgB-feature
+[31m|[m[32m\[m  
+[31m|[m *   [33m121c3b0[m[33m ([m[1;31m__org/master-base[m[33m, [m[1;32mmaster-base[m[33m)[m Merge pull request #5 from Prasad-Tx/base-orgA-feature
+[31m|[m [33m|[m[34m\[m  
+[31m|[m [33m|[m * [33m2682326[m[33m ([m[1;31m__org/base-orgA-feature[m[33m)[m chore(config): context path defined Significant operational impact, clients have been notified officially
+[31m|[m [33m|[m * [33mf846f98[m chore(config):updated the server port as requested by OPS - II II time - will have operational impact, other users have been notified
+[31m|[m * [34m|[m [33m2436259[m Merge pull request #4 from Prasad-Tx/base-orgA-feature
+[31m|[m [35m|[m[34m\[m[34m|[m 
+[31m|[m [35m|[m * [33m80698be[m chore(config):updated the server port as requested by OPS will have operational impact, other users have been notified
+[31m|[m * [36m|[m [33m1191011[m Merge pull request #3 from Prasad-Tx/base-orgA-feature
+[31m|[m [1;31m|[m[36m\[m[36m|[m 
+[31m|[m [1;31m|[m * [33m9dc643f[m running grade
+* [1;31m|[m [1;32m|[m [33m647ba4e[m[33m ([m[1;31m__org/base-orgB-feature[m[33m)[m chore(opr|business
+[1;31m|[m[1;31m/[m [1;32m/[m  
+* [1;32m|[m [33m11ec653[m Merge pull request #1 from Prasad-Tx/base-orgA-feature
+[1;33m|[m[1;32m\[m[1;32m|[m 
+[1;33m|[m * [33mc999577[m init, orgA
+[1;33m|[m[1;33m/[m  
+* [33m558933c[m[33m ([m[1;31m__org/main[m[33m, [m[1;31m__org/HEAD[m[33m)[m commit 01
+* [33m53d803b[m Initial commit

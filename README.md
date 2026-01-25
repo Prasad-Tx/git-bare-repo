@@ -1,6 +1,9 @@
 # git-bare-repo
 
 ## organization track
-### hi controller added for 'A'
-### number controller added for 'A'
-### commo controller added
+#### 1.hi controller added for 'B'
+#### 2.hi controller added for 'A'
+#### 3.number controller added for 'A'
+#### 4.common controller added
+
+
