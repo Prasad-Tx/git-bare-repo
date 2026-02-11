@@ -1,9 +1,9 @@
 package com.example.test_grd.controller;
 
+import com.example.test_grd.service.CommonUtilService;
 import com.example.test_grd.service.GuardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.example.test_grd.service.NumberService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -15,6 +15,9 @@ public class ControllerCommon {
 
     @Autowired
     GuardService guardService;
+
+    @Autowired
+    CommonUtilService commonUtilService;
 
     @GetMapping("org/gen-number")
     public String hiGetNumber() {
@@ -35,6 +38,11 @@ public class ControllerCommon {
 
     @GetMapping("org/guard")
     public String guard() {
-        return guardService.guard();
+        return guardService.guard() + " " + guardService.guard2();
+    }
+
+    @GetMapping("org/common-util")
+    public String commonUtil() {
+        return commonUtilService.getCommonUtil();
     }
 }
