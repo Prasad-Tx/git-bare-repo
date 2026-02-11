@@ -41,6 +41,11 @@ public class ControllerCommon {
         return guardService.guard() + " " + guardService.guard2();
     }
 
+    @GetMapping("org/new-ep")
+    public String newEp() {
+        return "New EP";
+    }
+
     @GetMapping("org/common-util")
     public String commonUtil() {
         String s1 = "Enhanced : ";
