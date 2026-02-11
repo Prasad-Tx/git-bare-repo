@@ -43,6 +43,7 @@ public class ControllerCommon {
 
     @GetMapping("org/common-util")
     public String commonUtil() {
-        return commonUtilService.getCommonUtil();
+        String s = "Enhanced : ";
+        return s + commonUtilService.getCommonUtil();
     }
 }
